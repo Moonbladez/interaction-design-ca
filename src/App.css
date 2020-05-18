@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #263238;
+  --color-secondary: #AF8F2F;
+  --color-white: #fefefe;
+  --color-dark: #333333;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--color-dark);
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

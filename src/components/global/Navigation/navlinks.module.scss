@@ -1,0 +1,28 @@
+.links {
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    li {
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Playfair Display', serif;
+        font-size: 1.125rem;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+            outline: none;
+        }
+    }
+}
