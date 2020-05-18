@@ -1,0 +1,18 @@
+.storeLocations {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 60vw;
+    margin: auto;
+    padding: 5rem 0;
+    grid-row-gap: 3rem;
+    grid-column-gap: 3rem;
+
+    h2 {
+        grid-column: span 12;
+    }
+
+    tr {
+        display: flex;
+        justify-content: space-between;
+    }
+}

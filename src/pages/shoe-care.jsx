@@ -54,7 +54,7 @@ class ShoeCare extends Component {
 							aroma.
 						</p>
 						<p>
-							Regular cleaning and polishing of your Barker shoes will maintain
+							Regular cleaning and polishing of your Letha shoes will maintain
 							the suppleness of the leathers and enhance their good looks.
 						</p>
 						<p>
@@ -79,8 +79,8 @@ class ShoeCare extends Component {
 							shoes which can, in turn, lead to premature wear.
 						</p>
 						<p>
-							Lethera offer many products which are designed to help you care
-							for your Lethera shoes which can be viewed within the
+							Lethea offer many products which are designed to help you care for
+							your Lethea shoes which can be viewed within the
 							<a href=''> shoe care section</a>
 						</p>
 					</div>

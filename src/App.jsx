@@ -6,6 +6,8 @@ import WomensShoes from "./pages/womens-shoes";
 import Delivery from "./pages/delivery";
 import Returns from "./pages/returns";
 import ShoeCare from "./pages/shoe-care";
+import Privacy from "./pages/privacy";
+import StoreLocations from "./pages/storeLocations";
 
 class App extends Component {
 	render() {
@@ -17,6 +19,8 @@ class App extends Component {
 					<Route exact path='/delivery-info' component={Delivery} />
 					<Route exact path='/returns-info' component={Returns} />
 					<Route exact path='/shoe-care' component={ShoeCare} />
+					<Route exact path='/cookies' component={Privacy} />
+					<Route exact path='/store-information' component={StoreLocations} />
 				</Switch>
 			</div>
 		);
