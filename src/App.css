@@ -5,6 +5,8 @@
   --color-secondary: #AF8F2F;
   --color-white: #fefefe;
   --color-dark: #333333;
+  --color-grey: #CFD8DC;
+  --font-posh: 'Playfair Display', serif;
 }
 
 body {
@@ -17,11 +19,21 @@ a {
   text-decoration: none;
 }
 
-section {
+h2 {
+  font-size: 2rem;
+  font-family: var(--font-posh)
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-family: var(--font-posh)
+}
+
+/* section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   max-width: 60vw;
   margin: auto;
   padding: 3rem 0;
   grid-row-gap: 3rem;
-}
+} */
