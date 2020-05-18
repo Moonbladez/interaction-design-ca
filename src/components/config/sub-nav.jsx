@@ -34,4 +34,9 @@ export default [
 		path: "/contact",
 		text: "contact us",
 	},
+	{
+		section: "legal",
+		path: "/cookies",
+		text: "cookie policy",
+	},
 ];

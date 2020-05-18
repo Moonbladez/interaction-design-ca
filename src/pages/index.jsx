@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Layout } from "../components/Layout";
 import { Banner } from "../components/global/Banner";
+import { ShoeCard } from "../components/global/ShoeCard";
 
 class Home extends Component {
 	render() {
@@ -11,6 +12,9 @@ class Home extends Component {
 					info='Check out out new collection of shoes in'
 					className='banner__home'
 				/>
+				<section>
+					<ShoeCard />
+				</section>
 			</Layout>
 		);
 	}

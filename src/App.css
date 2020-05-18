@@ -16,3 +16,12 @@ body {
 a {
   text-decoration: none;
 }
+
+section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: 60vw;
+  margin: auto;
+  padding: 3rem 0;
+  grid-row-gap: 3rem;
+}

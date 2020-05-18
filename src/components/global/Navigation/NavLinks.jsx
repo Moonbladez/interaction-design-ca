@@ -11,7 +11,11 @@ export class NavLinks extends Component {
 				{links.map((link) => {
 					return (
 						<li>
-							<NavLink to={link.path} activeClassName='active-link'>
+							<NavLink
+								to={link.path}
+								activeClassName='active-link'
+								key={link.id}
+							>
 								{link.text}
 							</NavLink>
 						</li>
