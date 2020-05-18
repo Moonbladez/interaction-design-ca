@@ -1,0 +1,12 @@
+.shoe-care {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 60vw;
+    margin: auto;
+    padding: 5rem 0;
+    grid-row-gap: 3rem;
+}
+
+.text {
+    grid-column: 3/10;
+}

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Layout } from "../components/Layout";
 import { BannerBottom } from "../components/global/BannerBottom/BannerBottom";
 
-import styles from "../components/delivery/delivery.module.scss";
+import styles from "../delivery/delivery.module.scss";
 
 class Delivery extends Component {
 	render() {
@@ -16,7 +16,7 @@ class Delivery extends Component {
 				<BannerBottom />
 
 				<section className={styles.delivery}>
-					<h3>Delivery Information</h3>
+					<h2>Delivery Information</h2>
 					<p>
 						UK to include England, Scotland, Wales. Excluding Scottish Highlands
 						and Islands

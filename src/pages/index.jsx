@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Layout } from "../components/Layout";
 import { Banner } from "../components/global/Banner";
-import { ShoeShowcase } from "../components/home/ShoeShowcase";
-import { New } from "../components/home/New";
-import { About } from "../components/home/About";
+import { ShoeShowcase } from "../home/ShoeShowcase";
+/* import { New } from "../components/home/New";
+import { About } from "../components/home/About"; */
 import { BannerBottom } from "../components/global/BannerBottom/BannerBottom";
 
 class Home extends Component {
