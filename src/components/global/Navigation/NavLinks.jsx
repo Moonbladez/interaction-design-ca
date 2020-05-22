@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import links from "../../config/main-nav";
 import { NavLink } from "react-router-dom";
-
+import { v4 as uuidv4 } from "uuid";
 import styles from "./navlinks.module.scss";
 
 export class NavLinks extends Component {
@@ -10,11 +10,15 @@ export class NavLinks extends Component {
 			<ul className={styles.links}>
 				{links.map((link) => {
 					return (
-						<li>
+						<li key={uuidv4()}>
 							<NavLink
+								exact
 								to={link.path}
-								activeClassName='active-link'
-								key={link.id}
+								activeStyle={{
+									fontWeight: "bold",
+									color: "black",
+									textDecoration: "underline",
+								}}
 							>
 								{link.text}
 							</NavLink>

@@ -1,0 +1,41 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 60vw;
+    margin: auto;
+    padding: 5rem 0;
+    grid-row-gap: 3rem;
+}
+
+
+.row {
+    display: grid;
+    grid-column: span 12;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 5rem;
+
+
+}
+
+.image {
+    filter: sepia(1);
+    grid-column: span 6;
+    width: 100%;
+    display: flex;
+}
+
+.text {
+    grid-column: span 6;
+}
+
+.photoGallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+
+}
+
+.photo {
+    grid-column: span 4;
+}

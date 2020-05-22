@@ -5,7 +5,7 @@ import { ShoeShowcase } from "../home/ShoeShowcase";
 /* import { New } from "../components/home/New";
 import { About } from "../components/home/About"; */
 import { BannerBottom } from "../components/global/BannerBottom/BannerBottom";
-
+import styles from "../styles/index.module.scss";
 class Home extends Component {
 	render() {
 		return (
@@ -13,7 +13,7 @@ class Home extends Component {
 				<Banner
 					title='Portsmouth Spring/Summer 2020'
 					info='Check out out new collection of shoes in'
-					className='banner__home'
+					className={styles.bannerHome}
 				/>
 				<BannerBottom />
 				<ShoeShowcase />

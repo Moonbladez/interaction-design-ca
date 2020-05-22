@@ -1,0 +1,210 @@
+[
+
+    {
+        "productid": 1,
+        "name": "emma",
+        "category": "oxford",
+        "images": ["./images/emma-1.jpg", "./images/emma-2.jpg", "./images/emma-3.jpg", "./images/emma-4.jpg"],
+        "price": 200,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "productid": 2,
+        "name": "olivia",
+        "category": "oxford",
+        "price": 150,
+        "images": ["./images/olivia-1.jpg", "./images/olivia-2.jpg", "./images/olivia-3.jpg", "./images/olivia-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "productid": 3,
+        "name": "ava",
+        "category": "oxford",
+        "price": 300,
+        "images": ["./images/ava-1.jpg", "./images/ava-2.jpg", "./images/ava-3.jpg", "./images/ava-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "productid": 4,
+        "name": "isabella",
+        "category": "oxfords",
+        "images": ["./images/isabella-1.jpg", "./images/isabella-2.jpg", "./images/isabella-3.jpg", "./images/isabella-4.jpg"],
+        "price": 400,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "sophia",
+        "category": "oxford",
+        "price": 220,
+        "images": ["./images/sophia-1.jpg", "./images/sophia-2.jpg", "./images/sophia-3.jpg", "./images/sophia-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "charlotte",
+        "category": "brogue",
+        "price": 315,
+        "images": ["./images/charlotte-1.jpg", "./images/charlotte-2.jpg", "./images/charlotte-3.jpg", "./images/charlotte-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "mia",
+        "category": "brogue",
+        "price": 400,
+        "images": ["./images/mia-1.jpg", "./images/mia-2.jpg", "./images/mia-3.jpg", "./images/mia-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "amelia",
+        "category": "brogue",
+        "image": "./images/amelia-1.jpg",
+        "price": 125,
+        "images": ["./images/amelia-1.jpg", "./images/amelia-2.jpg", "./images/amelia-3.jpg", "./images/amelia-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "evelyn",
+        "category": "brogue",
+        "image": "./images/evelyn-1.jpg",
+        "price": 220,
+        "images": ["./images/evelyn-1.jpg", "./images/evelyn-2.jpg", "./images/evelyn-3.jpg", "./images/evelyn-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "abigail",
+        "category": "brogue",
+        "price": 332,
+        "images": ["./images/abigail-1.jpg", "./images/abigail-2.jpg", "./images/abigail-3.jpg", "./images/abigail-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "emily",
+        "category": "loafers",
+        "price": 141,
+        "images": ["./images/amelia-1.jpg", "./images/amelia-2.jpg", "./images/amelia-3.jpg", "./images/amelia-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "elizabeth",
+        "category": "loafers",
+        "image": "./images/olivia-1.jpg",
+        "price": 257,
+        "images": ["./images/isabella-1.jpg", "./images/isabella-2.jpg", "./images/isabella-3.jpg", "./images/isabella-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "ella",
+        "category": "loafers",
+        "image": "./images/ava-1.jpg",
+        "price": 455,
+        "images": ["./images/evelyn-1.jpg", "./images/evelyn-2.jpg", "./images/evelyn-3.jpg", "./images/evelyn-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "avery",
+        "category": "loafers",
+        "image": "./images/isabella-1.jpg",
+        "price": 230,
+        "images": ["./images/olivia-1.jpg", "./images/olivia-2.jpg", "./images/olivia-3.jpg", "./images/olivia-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "sofia",
+        "category": "loafers",
+        "images": ["./images/emma-1.jpg", "./images/emma-2.jpg", "./images/emma-3.jpg", "./images/emma-4.jpg"],
+        "price": 251,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "camilla",
+        "category": "boots",
+        "images": ["./images/sophia-1.jpg", "./images/sophia-2.jpg", "./images/sophia-3.jpg", "./images/sophia-4.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "aria",
+        "category": "boots",
+        "images": ["./images/amelia-1.jpg", "./images/amelia-2.jpg", "./images/amelia-3.jpg", "./images/amelia-4.jpg"],
+        "price": 206,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "scarlett",
+        "category": "boots",
+        "images": ["./images/ava-1.jpg", "./images/ava-2.jpg", "./images/ava-3.jpg", "./images/ava-4.jpg"],
+        "price": 251,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "victoria",
+        "category": "boots",
+        "images": ["./images/abigail-1.jpg", "./images/abigail-2.jpg", "./images/abigail-3.jpg", "./images/abigail-4.jpg"],
+        "price": 346,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "madison",
+        "category": "boots",
+        "images": ["./images/charlotte-1.jpg", "./images/charlotte-2.jpg", "./images/charlotte-3.jpg", "./images/charlotte-4.jpg"],
+        "price": 385,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "luna",
+        "category": "slippers",
+        "images": ["./images/mia-1.jpg", "./images/mia-2.jpg", "./images/mia-3.jpg", "./images/mia-4.jpg"],
+        "price": 45,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "grace",
+        "category": "slippers",
+        "images": ["./images/emma-1.jpg", "./images/emma-2.jpg", "./images/emma-3.jpg", "./images/emma-4.jpg"],
+        "price": 72,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    }
+
+]

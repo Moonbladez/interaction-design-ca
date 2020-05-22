@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import styles from "./newsletter.module.scss";
 import { Button } from "../../utils/Button";
+import { FormInput } from "../../FormInput";
 
 export class NewsLetter extends Component {
 	constructor(props) {
@@ -22,17 +23,16 @@ export class NewsLetter extends Component {
 		return (
 			<div className={styles.newsletter}>
 				<form action='' onSubmit={this.handleSubmit}>
-					<label htmlFor='email'>Subscribe to our newsletter</label>
-					<input
-						onChange={this.handleChange}
+					<FormInput
+						label='sign up for our newsletter'
+						placeholder='enter your email address'
 						type='email'
-						name='email'
 						id='email'
-						placeholder='enter your email'
-						value={this.state.value}
+						name='email'
+						className=''
+						required
 					/>
-
-					<Button content='Submit' type='submit' color='red'></Button>
+					<Button label='Submit' type='submit'></Button>
 				</form>
 			</div>
 		);

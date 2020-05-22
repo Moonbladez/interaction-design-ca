@@ -2,8 +2,8 @@
     background-image:
         linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
         url('../../images/home.jpg');
-    height: 50vh;
-    background-position: bottom;
+    height: 30vh;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--color-white);
@@ -13,9 +13,17 @@
     justify-content: space-around;
 
 
+
+
     h2 {
         font-size: 4rem;
         font-family: 'Playfair Display', serif;
         letter-spacing: 0.2rem;
+        margin: 1rem;
     }
+}
+
+.bannerHome {
+    height: 50vh;
+    color: black;
 }

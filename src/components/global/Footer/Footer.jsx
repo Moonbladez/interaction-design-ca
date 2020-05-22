@@ -4,6 +4,7 @@ import links from "../../config/sub-nav";
 import { NavLink } from "react-router-dom";
 import { TiSocialTwitterCircular } from "react-icons/ti";
 import { FaCcPaypal, FaCcMastercard, FaCcVisa } from "react-icons/fa";
+import { v4 as uuidv4 } from "uuid";
 
 export class Footer extends Component {
 	render() {
@@ -15,7 +16,11 @@ export class Footer extends Component {
 						<ul>
 							{links.map((link) => {
 								if (link.section === "customer service")
-									return <NavLink to={link.path}>{link.text}</NavLink>;
+									return (
+										<li key={uuidv4()}>
+											<NavLink to={link.path}>{link.text}</NavLink>
+										</li>
+									);
 							})}
 						</ul>
 					</div>
@@ -25,7 +30,11 @@ export class Footer extends Component {
 						<ul>
 							{links.map((link) => {
 								if (link.section === "information")
-									return <NavLink to={link.path}>{link.text}</NavLink>;
+									return (
+										<li key={uuidv4()}>
+											<NavLink to={link.path}>{link.text}</NavLink>
+										</li>
+									);
 							})}
 						</ul>
 					</div>
@@ -35,7 +44,11 @@ export class Footer extends Component {
 						<ul>
 							{links.map((link) => {
 								if (link.section === "legal")
-									return <NavLink to={link.path}>{link.text}</NavLink>;
+									return (
+										<li key={uuidv4()}>
+											<NavLink to={link.path}>{link.text}</NavLink>
+										</li>
+									);
 							})}
 						</ul>
 					</div>

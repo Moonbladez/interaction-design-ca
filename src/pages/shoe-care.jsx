@@ -81,7 +81,7 @@ class ShoeCare extends Component {
 						<p>
 							Lethea offer many products which are designed to help you care for
 							your Lethea shoes which can be viewed within the
-							<a href=''> shoe care section</a>
+							<a href='/shoe-care'> shoe care section</a>
 						</p>
 					</div>
 				</section>

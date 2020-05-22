@@ -3,7 +3,7 @@ import styles from "./shoe-showcase.module.scss";
 import MensShoes from "../images/mens-card.jpg";
 import WomensShoes from "../images/womens-card.jpg";
 import Accessories from "../images/accessories-card.jpg";
-import { Button } from "../components/utils/Button";
+import { AnchorButton } from "../components/utils/AnchorButton";
 
 export class ShoeShowcase extends Component {
 	render() {
@@ -11,15 +11,24 @@ export class ShoeShowcase extends Component {
 			<section className={styles.wrapper}>
 				<div className={styles.shoe_showcase}>
 					<img src={MensShoes} alt='mens shoe section' />
-					<Button content='Mens Shoes'></Button>
+					<AnchorButton
+						content='Mens Shoes'
+						location={"/mens-shoes"}
+					></AnchorButton>
 				</div>
-				<div>
+				<div className={styles.shoe_showcase}>
 					<img src={WomensShoes} alt='womens shoe section' />
-					<Button content='Womens Shoes'></Button>
+					<AnchorButton
+						content='Womens Shoes'
+						location={"/womens-shoes"}
+					></AnchorButton>
 				</div>
-				<div>
+				<div className={styles.shoe_showcase}>
 					<img src={Accessories} alt='accessories section' />
-					<Button content='Accessories'></Button>
+					<AnchorButton
+						content='Accessories'
+						location={"/accessories"}
+					></AnchorButton>
 				</div>
 			</section>
 		);

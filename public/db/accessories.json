@@ -1,0 +1,55 @@
+[{
+        "name": "liam",
+        "category": "oxford",
+        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
+        "price": 200,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "noah",
+        "category": "oxford",
+        "price": 150,
+        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "william",
+        "category": "oxford",
+        "price": 300,
+        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "james",
+        "category": "oxfords",
+        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
+        "price": 400,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "oliver",
+        "category": "oxford",
+        "price": 220,
+        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    },
+    {
+        "name": "benjamin",
+        "category": "brogue",
+        "price": 315,
+        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
+        "colors": ["red", "orange", "pink", "green"],
+        "featured": false
+    }
+]

@@ -6,6 +6,10 @@
     padding: 5rem 0;
     grid-row-gap: 3rem;
 
+    h2 {
+        grid-column: span 12;
+    }
+
     h3 {
         grid-column: span 12;
         margin: 0;
