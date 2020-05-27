@@ -1,0 +1,11 @@
+.account {
+
+    svg {
+        font-size: 2rem;
+        color: var(-color-dark);
+
+        &:hover {
+            color: var(--color-secondary);
+        }
+    }
+}

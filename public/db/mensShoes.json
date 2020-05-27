@@ -1,204 +1,602 @@
 [
-
-    {
-        "name": "liam",
-        "category": "oxford",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 200,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "noah",
-        "category": "oxford",
-        "price": 150,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "william",
-        "category": "oxford",
-        "price": 300,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "james",
-        "category": "oxfords",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 400,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "oliver",
-        "category": "oxford",
-        "price": 220,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "benjamin",
-        "category": "brogue",
-        "price": 315,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "elijah",
-        "category": "brogue",
-        "price": 400,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "lucas",
-        "category": "brogue",
-        "image": "./images/amelia-1.jpg",
-        "price": 125,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "mason",
-        "category": "brogue",
-        "image": "./images/evelyn-1.jpg",
-        "price": 220,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "logan",
-        "category": "brogue",
-        "price": 332,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "alexander",
-        "category": "loafers",
-        "price": 141,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "ethan",
-        "category": "loafers",
-        "price": 257,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "jacob",
-        "category": "loafers",
-
-        "price": 455,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "michael",
-        "category": "loafers",
-        "price": 230,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "daniel",
-        "category": "loafers",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 251,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "henry",
-        "category": "boots",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "jackson",
-        "category": "boots",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 206,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "sebastian",
-        "category": "boots",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 251,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "aiden",
-        "category": "boots",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 346,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "matthew",
-        "category": "boots",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 385,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "carter",
-        "category": "slippers",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 45,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "owen",
-        "category": "slippers",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 72,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    }
-
+	{
+		"productid": 101,
+		"name": "liam",
+		"category": "oxfords",
+		"images": [
+			"/images/liam-1.jpg",
+			"/images/liam-2.jpg",
+			"/images/liam-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 102,
+		"name": "noah",
+		"category": "oxfords",
+		"images": [
+			"/images/noah-1.jpg",
+			"/images/noah-2.jpg",
+			"/images/noah-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 103,
+		"name": "william",
+		"category": "oxfords",
+		"images": [
+			"/images/william-1.jpg",
+			"/images/william-2.jpg",
+			"/images/william-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 373,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 104,
+		"name": "james",
+		"category": "oxfords",
+		"images": [
+			"/images/james-1.jpg",
+			"/images/james-2.jpg",
+			"/images/james-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 279,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 105,
+		"name": "oliver",
+		"category": "oxfords",
+		"images": [
+			"/images/oliver-1.jpg",
+			"/images/oliver-2.jpg",
+			"/images/oliver-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 249,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 106,
+		"name": "liam",
+		"category": "brogues",
+		"images": [
+			"/images/liam-1.jpg",
+			"/images/liam-2.jpg",
+			"/images/liam-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 107,
+		"name": "noah",
+		"category": "brogues",
+		"images": [
+			"/images/noah-1.jpg",
+			"/images/noah-2.jpg",
+			"/images/noah-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 108,
+		"name": "william",
+		"category": "brogues",
+		"images": [
+			"/images/william-1.jpg",
+			"/images/william-2.jpg",
+			"/images/william-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 373,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 109,
+		"name": "james",
+		"category": "brogues",
+		"images": [
+			"/images/james-1.jpg",
+			"/images/james-2.jpg",
+			"/images/james-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 279,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 110,
+		"name": "oliver",
+		"category": "brogues",
+		"images": [
+			"/images/oliver-1.jpg",
+			"/images/oliver-2.jpg",
+			"/images/oliver-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 249,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 111,
+		"name": "liam",
+		"category": "derbys",
+		"images": [
+			"/images/liam-1.jpg",
+			"/images/liam-2.jpg",
+			"/images/liam-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 112,
+		"name": "noah",
+		"category": "derbys",
+		"images": [
+			"/images/noah-1.jpg",
+			"/images/noah-2.jpg",
+			"/images/noah-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 113,
+		"name": "william",
+		"category": "derbys",
+		"images": [
+			"/images/william-1.jpg",
+			"/images/william-2.jpg",
+			"/images/william-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 373,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 114,
+		"name": "james",
+		"category": "derbys",
+		"images": [
+			"/images/james-1.jpg",
+			"/images/james-2.jpg",
+			"/images/james-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 279,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 115,
+		"name": "oliver",
+		"category": "derbys",
+		"images": [
+			"/images/oliver-1.jpg",
+			"/images/oliver-2.jpg",
+			"/images/oliver-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 249,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 116,
+		"name": "liam",
+		"category": "loafers",
+		"images": [
+			"/images/liam-1.jpg",
+			"/images/liam-2.jpg",
+			"/images/liam-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 117,
+		"name": "noah",
+		"category": "loafers",
+		"images": [
+			"/images/noah-1.jpg",
+			"/images/noah-2.jpg",
+			"/images/noah-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 200,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 118,
+		"name": "william",
+		"category": "loafers",
+		"images": [
+			"/images/william-1.jpg",
+			"/images/william-2.jpg",
+			"/images/william-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 373,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 119,
+		"name": "james",
+		"category": "loafers",
+		"images": [
+			"/images/james-1.jpg",
+			"/images/james-2.jpg",
+			"/images/james-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 279,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	},
+	{
+		"productid": 120,
+		"name": "oliver",
+		"category": "loafers",
+		"images": [
+			"/images/oliver-1.jpg",
+			"/images/oliver-2.jpg",
+			"/images/oliver-3.jpg",
+			"/images/unboxing.jpg"
+		],
+		"price": 249,
+		"description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+		"colors": {
+			"pine": "../images/green-leather-swatch.jpg",
+			"scalet": "../images/red-leather-swatch.jpg",
+			"rouge": "../images/dark-red-leather-swatch.jpg",
+			"caramel": "../images/light-brown-leather-swatch.jpg",
+			"walnut": "../images/dark-brown-leather-swatch.jpg",
+			"black": "../images/black-leather-swatch.jpg"
+		},
+		"features": {
+			"lining": "full leather",
+			"sole": "Good Year Welted Leather Sole",
+			"heel": "leather",
+			"origin": "uk",
+			"fiting": "E"
+		},
+		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+		"featured": false
+	}
 ]

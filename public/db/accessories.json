@@ -1,55 +1,181 @@
 [{
+        "productid": 101,
         "name": "liam",
-        "category": "oxford",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
+        "category": "oxfords",
+        "images": [
+            "/images/liam-1.jpg",
+            "/images/liam-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
         "price": 200,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 102,
         "name": "noah",
-        "category": "oxford",
-        "price": 150,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "oxfords",
+        "images": [
+            "/images/noah-1.jpg",
+            "/images/noah-2.jpg",
+            "/images/noah-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 103,
         "name": "william",
-        "category": "oxford",
-        "price": 300,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "oxfords",
+        "images": [
+            "/images/william-1.jpg",
+            "/images/william-2.jpg",
+            "/images/william-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 373,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 104,
         "name": "james",
         "category": "oxfords",
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "price": 400,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/james-1.jpg",
+            "/images/james-2.jpg",
+            "/images/james-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 279,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 105,
         "name": "oliver",
-        "category": "oxford",
-        "price": 220,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "oxfords",
+        "images": [
+            "/images/oliver-1.jpg",
+            "/images/oliver-2.jpg",
+            "/images/oliver-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 249,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "benjamin",
-        "category": "brogue",
-        "price": 315,
-        "images": ["./images/liam-1.jpg", "./images/liam-2.jpg", "./images/liam-3.jpg", "./images/unboxing.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "productid": 106,
+        "name": "liam",
+        "category": "brogues",
+        "images": [
+            "/images/liam-1.jpg",
+            "/images/liam-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     }
 ]

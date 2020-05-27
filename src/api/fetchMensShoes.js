@@ -1,3 +1,3 @@
 export const fetchMensShoes = async () => {
-    return fetch("./db/mensShoes.json").then((response) => response.json());
+    return fetch("http://localhost:3000/db/mensShoes.json").then((response) => response.json());
 };

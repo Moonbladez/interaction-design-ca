@@ -1,3 +1,3 @@
 export const fetchAccessories = async () => {
-    return fetch("./db/accessories.json").then((response) => response.json());
+    return fetch("http://localhost:3000/db/accessories.json").then((response) => response.json());
 };

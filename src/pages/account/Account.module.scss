@@ -1,0 +1,81 @@
+.account {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 60vw;
+    margin: auto;
+    padding: 5rem 0;
+    grid-column-gap: 3rem;
+    grid-row-gap: 5rem;
+
+    .login {
+        grid-column: span 6;
+
+        border-right: 1px solid var(--color-secondary);
+        padding-right: 3rem;
+
+        button {
+            background-color: var(--color-primary);
+        }
+    }
+
+    .create_account {
+        grid-column: span 6;
+
+
+        button {
+            background-color: var(--color-secondary);
+        }
+
+    }
+
+
+    form {
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            padding: 1rem 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+
+        label {
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+            font-family: var(--font-posh);
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+
+
+        button {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        input[checked] {
+            margin-left: 1rem;
+        }
+
+    }
+
+
+    .checkbox {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        label {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            font-size: 0.8rem;
+        }
+
+    }
+
+}

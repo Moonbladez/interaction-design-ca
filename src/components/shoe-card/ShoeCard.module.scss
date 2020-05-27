@@ -1,0 +1,52 @@
+.shoeCard {
+    grid-column: span 4;
+    grid-column-gap: 1rem;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+
+    img {
+        width: 100%;
+    }
+
+    a {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+        border: none;
+        padding: 0.5rem 1rem;
+
+        font-size: 1.25rem;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 1px 2px 5px var(--color-dark);
+    }
+}
+
+.name {
+    text-transform: capitalize;
+    font-size: 1.625rem;
+    font-family: var(--font-posh);
+    margin: 0;
+}
+
+.body {
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    text-transform: capitalize;
+    font-size: 1.125rem;
+}
+
+.membership {
+
+    text-transform: capitalize;
+}
+
+
+.price {
+    color: var(--color-secondary);
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0.5rem;
+}
