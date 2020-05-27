@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-import { fetchAccessories } from "../../api/fetchAccessories";
+import { fetchProducts } from "../../api/fetchProducts";
 
 import { Layout } from "../../components/layout/Layout";
 import { Banner } from "../../global/banner/Banner";
@@ -11,23 +11,30 @@ export class Accessories extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			data: [],
+			products: [],
 		};
 	}
 
 	componentDidMount() {
-		fetchAccessories().then((data) => {
-			this.setState({ data });
+		fetchProducts(this.props.fetchUrl).then((products) => {
+			this.setState({ products });
 		});
 	}
 
 	renderShoeCard() {
-		return this.state.data.map((data) => {
-			return <ShoeCard shoeData={data} key={uuidv4()} />;
+		return this.state.products.map((product) => {
+			return (
+				<ShoeCard
+					path={this.props.match.path}
+					product={product}
+					key={uuidv4()}
+				/>
+			);
 		});
 	}
 
 	render() {
+		console.log(this.props);
 		return (
 			<Layout>
 				<Banner

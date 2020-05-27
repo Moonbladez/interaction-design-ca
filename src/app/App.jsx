@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-
-import { fetchMensShoes } from "../api/fetchMensShoes";
-import { fetchWomensShoes } from "../api/fetchWomensShoes";
+import { v4 as uuid } from "uuid";
 
 import { Home } from "../pages/home/Home";
 import { About } from "../pages/about/About";
@@ -49,7 +47,11 @@ export class App extends Component {
 						exact
 						path='/womens-shoes'
 						render={(routerProps) => (
-							<Products {...routerProps} fetchUrl={"/db/womensShoes.json"} />
+							<Products
+								{...routerProps}
+								fetchUrl={"/db/womensShoes.json"}
+								key={uuid()}
+							/>
 						)}
 					/>
 
@@ -61,6 +63,31 @@ export class App extends Component {
 								<ProductDetails
 									{...routerProps}
 									fetchUrl={"/db/womensShoes.json"}
+								/>
+							);
+						}}
+					/>
+
+					<Route
+						exact
+						path='/accessories'
+						render={(routerProps) => (
+							<Products
+								{...routerProps}
+								fetchUrl={"/db/accessories.json"}
+								key={uuid()}
+							/>
+						)}
+					/>
+
+					<Route
+						exact
+						path='/accessories/:productid'
+						render={(routerProps) => {
+							return (
+								<ProductDetails
+									{...routerProps}
+									fetchUrl={"/db/accessories.json"}
 								/>
 							);
 						}}
@@ -82,7 +109,11 @@ export class App extends Component {
 						exact
 						path='/mens-shoes'
 						render={(routerProps) => (
-							<Products {...routerProps} fetchUrl={"/db/mensShoes.json"} />
+							<Products
+								{...routerProps}
+								fetchUrl={"/db/mensShoes.json"}
+								key={uuid()}
+							/>
 						)}
 					/>
 

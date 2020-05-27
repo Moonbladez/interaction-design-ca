@@ -1,181 +1,145 @@
 [{
-        "productid": 101,
-        "name": "liam",
-        "category": "oxfords",
+        "productid": 301,
+        "name": "leather suitcase",
+        "category": "bag",
         "images": [
-            "/images/liam-1.jpg",
+            "/images/briefcase.jpg",
             "/images/liam-2.jpg",
             "/images/liam-3.jpg",
             "/images/unboxing.jpg"
         ],
-        "price": 200,
-        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
-        "colors": {
-            "pine": "../images/green-leather-swatch.jpg",
-            "scalet": "../images/red-leather-swatch.jpg",
-            "rouge": "../images/dark-red-leather-swatch.jpg",
-            "caramel": "../images/light-brown-leather-swatch.jpg",
-            "walnut": "../images/dark-brown-leather-swatch.jpg",
-            "black": "../images/black-leather-swatch.jpg"
-        },
+        "price": 100,
+        "description": "A mordern, stylish leather briefcase. ",
+        "colors": {},
         "features": {
-            "lining": "full leather",
-            "sole": "Good Year Welted Leather Sole",
-            "heel": "leather",
-            "origin": "uk",
-            "fiting": "E"
+            "compartments": "2",
+            "depth": "11.5cm",
+            "height": "32.5cm",
+            "width": " 45 cm ",
+            "weight": "1.7kg",
+            "made in": "italy"
         },
-        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-        "featured": false
+        "sizes": [],
+        "featured": true
     },
     {
-        "productid": 102,
-        "name": "noah",
-        "category": "oxfords",
+        "productid": 302,
+        "name": "leather suitcase",
+        "category": "bag",
         "images": [
-            "/images/noah-1.jpg",
-            "/images/noah-2.jpg",
-            "/images/noah-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 200,
-        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
-        "colors": {
-            "pine": "../images/green-leather-swatch.jpg",
-            "scalet": "../images/red-leather-swatch.jpg",
-            "rouge": "../images/dark-red-leather-swatch.jpg",
-            "caramel": "../images/light-brown-leather-swatch.jpg",
-            "walnut": "../images/dark-brown-leather-swatch.jpg",
-            "black": "../images/black-leather-swatch.jpg"
-        },
-        "features": {
-            "lining": "full leather",
-            "sole": "Good Year Welted Leather Sole",
-            "heel": "leather",
-            "origin": "uk",
-            "fiting": "E"
-        },
-        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-        "featured": false
-    },
-    {
-        "productid": 103,
-        "name": "william",
-        "category": "oxfords",
-        "images": [
-            "/images/william-1.jpg",
-            "/images/william-2.jpg",
-            "/images/william-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 373,
-        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
-        "colors": {
-            "pine": "../images/green-leather-swatch.jpg",
-            "scalet": "../images/red-leather-swatch.jpg",
-            "rouge": "../images/dark-red-leather-swatch.jpg",
-            "caramel": "../images/light-brown-leather-swatch.jpg",
-            "walnut": "../images/dark-brown-leather-swatch.jpg",
-            "black": "../images/black-leather-swatch.jpg"
-        },
-        "features": {
-            "lining": "full leather",
-            "sole": "Good Year Welted Leather Sole",
-            "heel": "leather",
-            "origin": "uk",
-            "fiting": "E"
-        },
-        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-        "featured": false
-    },
-    {
-        "productid": 104,
-        "name": "james",
-        "category": "oxfords",
-        "images": [
-            "/images/james-1.jpg",
-            "/images/james-2.jpg",
-            "/images/james-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 279,
-        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
-        "colors": {
-            "pine": "../images/green-leather-swatch.jpg",
-            "scalet": "../images/red-leather-swatch.jpg",
-            "rouge": "../images/dark-red-leather-swatch.jpg",
-            "caramel": "../images/light-brown-leather-swatch.jpg",
-            "walnut": "../images/dark-brown-leather-swatch.jpg",
-            "black": "../images/black-leather-swatch.jpg"
-        },
-        "features": {
-            "lining": "full leather",
-            "sole": "Good Year Welted Leather Sole",
-            "heel": "leather",
-            "origin": "uk",
-            "fiting": "E"
-        },
-        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-        "featured": false
-    },
-    {
-        "productid": 105,
-        "name": "oliver",
-        "category": "oxfords",
-        "images": [
-            "/images/oliver-1.jpg",
-            "/images/oliver-2.jpg",
-            "/images/oliver-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 249,
-        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
-        "colors": {
-            "pine": "../images/green-leather-swatch.jpg",
-            "scalet": "../images/red-leather-swatch.jpg",
-            "rouge": "../images/dark-red-leather-swatch.jpg",
-            "caramel": "../images/light-brown-leather-swatch.jpg",
-            "walnut": "../images/dark-brown-leather-swatch.jpg",
-            "black": "../images/black-leather-swatch.jpg"
-        },
-        "features": {
-            "lining": "full leather",
-            "sole": "Good Year Welted Leather Sole",
-            "heel": "leather",
-            "origin": "uk",
-            "fiting": "E"
-        },
-        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-        "featured": false
-    },
-    {
-        "productid": 106,
-        "name": "liam",
-        "category": "brogues",
-        "images": [
-            "/images/liam-1.jpg",
+            "/images/handbag.jpg",
             "/images/liam-2.jpg",
             "/images/liam-3.jpg",
             "/images/unboxing.jpg"
         ],
-        "price": 200,
-        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
-        "colors": {
-            "pine": "../images/green-leather-swatch.jpg",
-            "scalet": "../images/red-leather-swatch.jpg",
-            "rouge": "../images/dark-red-leather-swatch.jpg",
-            "caramel": "../images/light-brown-leather-swatch.jpg",
-            "walnut": "../images/dark-brown-leather-swatch.jpg",
-            "black": "../images/black-leather-swatch.jpg"
-        },
+        "price": 80,
+        "description": "A mordern, stylish leather briefcase. ",
+        "colors": {},
         "features": {
-            "lining": "full leather",
-            "sole": "Good Year Welted Leather Sole",
-            "heel": "leather",
-            "origin": "uk",
-            "fiting": "E"
+            "compartments": "2",
+            "depth": "11.5cm",
+            "height": "32.5cm",
+            "width": " 45 cm ",
+            "weight": "1.7kg",
+            "made in": "italy"
         },
-        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+        "sizes": [],
         "featured": false
+    },
+    {
+        "productid": 303,
+        "name": "leather belt",
+        "category": "belt",
+        "images": [
+            "/images/belt.jpg",
+            "/images/liam-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 50,
+        "description": "A mordern, stylish leather briefcase. ",
+        "colors": {},
+        "features": {
+            "compartments": "2",
+            "depth": "11.5cm",
+            "height": "32.5cm",
+            "width": " 45 cm ",
+            "weight": "1.7kg",
+            "made in": "italy"
+        },
+        "sizes": [],
+        "featured": true
+    },
+    {
+        "productid": 304,
+        "name": "belts set",
+        "category": "belt",
+        "images": [
+            "/images/belts.jpg",
+            "/images/liam-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 100,
+        "description": "A mordern, stylish leather briefcase. ",
+        "colors": {},
+        "features": {
+            "compartments": "2",
+            "depth": "11.5cm",
+            "height": "32.5cm",
+            "width": " 45 cm ",
+            "weight": "1.7kg",
+            "made in": "italy"
+        },
+        "sizes": [],
+        "featured": false
+    },
+    {
+        "productid": 305,
+        "name": "shoe brush",
+        "category": "shoe care",
+        "images": [
+            "/images/shoebrush.jpg",
+            "/images/liam-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 20,
+        "description": "A mordern, stylish leather briefcase. ",
+        "colors": {},
+        "features": {
+            "compartments": "2",
+            "depth": "11.5cm",
+            "height": "32.5cm",
+            "width": " 45 cm ",
+            "weight": "1.7kg",
+            "made in": "italy"
+        },
+        "sizes": [],
+        "featured": false
+    },
+    {
+        "productid": 306,
+        "name": "leather suitcase",
+        "category": "shoe care",
+        "images": [
+            "/images/wax.jpg",
+            "/images/liam-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 20,
+        "description": "A mordern, stylish leather briefcase. ",
+        "colors": {},
+        "features": {
+            "compartments": "2",
+            "depth": "11.5cm",
+            "height": "32.5cm",
+            "width": " 45 cm ",
+            "weight": "1.7kg",
+            "made in": "italy"
+        },
+        "sizes": [],
+        "featured": true
     }
 ]

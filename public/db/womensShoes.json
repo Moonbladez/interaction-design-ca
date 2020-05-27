@@ -1,209 +1,511 @@
-[
-
-    {
-        "productid": 1,
+[{
+        "productid": 201,
         "name": "emma",
-        "category": "oxford",
-        "images": ["./images/emma-1.jpg", "./images/emma-2.jpg", "./images/emma-3.jpg", "./images/emma-4.jpg"],
+        "category": "loafers",
+        "images": [
+            "/images/emma-1.jpg",
+            "/images/emma-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
         "price": 200,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "productid": 2,
+        "productid": 202,
         "name": "olivia",
-        "category": "oxford",
-        "price": 150,
-        "images": ["./images/olivia-1.jpg", "./images/olivia-2.jpg", "./images/olivia-3.jpg", "./images/olivia-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "boots",
+        "images": [
+            "/images/olivia-1.jpg",
+            "/images/olivia-2.jpg",
+            "/images/olivia-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "productid": 3,
+        "productid": 203,
         "name": "ava",
-        "category": "oxford",
-        "price": 300,
-        "images": ["./images/ava-1.jpg", "./images/ava-2.jpg", "./images/ava-3.jpg", "./images/ava-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "oxfords",
+        "images": [
+            "/images/ava-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "productid": 4,
+        "productid": 204,
         "name": "isabella",
         "category": "oxfords",
-        "images": ["./images/isabella-1.jpg", "./images/isabella-2.jpg", "./images/isabella-3.jpg", "./images/isabella-4.jpg"],
-        "price": 400,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/isabella-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 205,
         "name": "sophia",
-        "category": "oxford",
-        "price": 220,
-        "images": ["./images/sophia-1.jpg", "./images/sophia-2.jpg", "./images/sophia-3.jpg", "./images/sophia-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "oxfords",
+        "images": [
+            "/images/sophia-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "charlotte",
-        "category": "brogue",
-        "price": 315,
-        "images": ["./images/charlotte-1.jpg", "./images/charlotte-2.jpg", "./images/charlotte-3.jpg", "./images/charlotte-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
+        "productid": 206,
         "name": "mia",
-        "category": "brogue",
-        "price": 400,
-        "images": ["./images/mia-1.jpg", "./images/mia-2.jpg", "./images/mia-3.jpg", "./images/mia-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "brogues",
+        "images": [
+            "/images/emma-1.jpg",
+            "/images/emma-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 207,
         "name": "amelia",
-        "category": "brogue",
-        "image": "./images/amelia-1.jpg",
-        "price": 125,
-        "images": ["./images/amelia-1.jpg", "./images/amelia-2.jpg", "./images/amelia-3.jpg", "./images/amelia-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "brogues",
+        "images": [
+            "/images/olivia-1.jpg",
+            "/images/olivia-2.jpg",
+            "/images/olivia-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "evelyn",
-        "category": "brogue",
-        "image": "./images/evelyn-1.jpg",
-        "price": 220,
-        "images": ["./images/evelyn-1.jpg", "./images/evelyn-2.jpg", "./images/evelyn-3.jpg", "./images/evelyn-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "productid": 208,
+        "name": "charlotte",
+        "category": "brogues",
+        "images": [
+            "/images/ava-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 209,
         "name": "abigail",
-        "category": "brogue",
-        "price": 332,
-        "images": ["./images/abigail-1.jpg", "./images/abigail-2.jpg", "./images/abigail-3.jpg", "./images/abigail-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "category": "brogues",
+        "images": [
+            "/images/isabella-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
+        "productid": 210,
         "name": "emily",
+        "category": "brogues",
+        "images": [
+            "/images/sophia-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
+        "featured": false
+    },
+    {
+        "productid": 211,
+        "name": "emma",
         "category": "loafers",
-        "price": 141,
-        "images": ["./images/amelia-1.jpg", "./images/amelia-2.jpg", "./images/amelia-3.jpg", "./images/amelia-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/emma-1.jpg",
+            "/images/emma-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "elizabeth",
+        "productid": 212,
+        "name": "olivia",
         "category": "loafers",
-        "image": "./images/olivia-1.jpg",
-        "price": 257,
-        "images": ["./images/isabella-1.jpg", "./images/isabella-2.jpg", "./images/isabella-3.jpg", "./images/isabella-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/olivia-1.jpg",
+            "/images/olivia-2.jpg",
+            "/images/olivia-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "ella",
+        "productid": 213,
+        "name": "ava",
         "category": "loafers",
-        "image": "./images/ava-1.jpg",
-        "price": 455,
-        "images": ["./images/evelyn-1.jpg", "./images/evelyn-2.jpg", "./images/evelyn-3.jpg", "./images/evelyn-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/ava-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "avery",
+        "productid": 214,
+        "name": "isabella",
         "category": "loafers",
-        "image": "./images/isabella-1.jpg",
-        "price": 230,
-        "images": ["./images/olivia-1.jpg", "./images/olivia-2.jpg", "./images/olivia-3.jpg", "./images/olivia-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/isabella-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "sofia",
+        "productid": 215,
+        "name": "sophia",
         "category": "loafers",
-        "images": ["./images/emma-1.jpg", "./images/emma-2.jpg", "./images/emma-3.jpg", "./images/emma-4.jpg"],
-        "price": 251,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/sophia-1.jpg",
+            "/images/ava-2.jpg",
+            "/images/ava-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "camilla",
-        "category": "boots",
-        "images": ["./images/sophia-1.jpg", "./images/sophia-2.jpg", "./images/sophia-3.jpg", "./images/sophia-4.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "aria",
-        "category": "boots",
-        "images": ["./images/amelia-1.jpg", "./images/amelia-2.jpg", "./images/amelia-3.jpg", "./images/amelia-4.jpg"],
-        "price": 206,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "scarlett",
-        "category": "boots",
-        "images": ["./images/ava-1.jpg", "./images/ava-2.jpg", "./images/ava-3.jpg", "./images/ava-4.jpg"],
-        "price": 251,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "victoria",
-        "category": "boots",
-        "images": ["./images/abigail-1.jpg", "./images/abigail-2.jpg", "./images/abigail-3.jpg", "./images/abigail-4.jpg"],
-        "price": 346,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "madison",
-        "category": "boots",
-        "images": ["./images/charlotte-1.jpg", "./images/charlotte-2.jpg", "./images/charlotte-3.jpg", "./images/charlotte-4.jpg"],
-        "price": 385,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
-        "featured": false
-    },
-    {
-        "name": "luna",
+        "productid": 216,
+        "name": "emma",
         "category": "slippers",
-        "images": ["./images/mia-1.jpg", "./images/mia-2.jpg", "./images/mia-3.jpg", "./images/mia-4.jpg"],
-        "price": 45,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/emma-1.jpg",
+            "/images/emma-2.jpg",
+            "/images/liam-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     },
     {
-        "name": "grace",
+        "productid": 217,
+        "name": "olivia",
         "category": "slippers",
-        "images": ["./images/emma-1.jpg", "./images/emma-2.jpg", "./images/emma-3.jpg", "./images/emma-4.jpg"],
-        "price": 72,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere leo quis consectetur sagittis. Curabitur sodales varius nulla quis suscipit. Morbi nec sapien ac orci dapibus accumsan sed id turpis. Fusce a malesuada neque, quis faucibus ante. Donec pretium venenatis metus. Donec eu vestibulum nisi. Nam non tempor augue. Aliquam nec mauris vehicula nulla imperdiet feugiat.",
-        "colors": ["red", "orange", "pink", "green"],
+        "images": [
+            "/images/olivia-1.jpg",
+            "/images/olivia-2.jpg",
+            "/images/olivia-3.jpg",
+            "/images/unboxing.jpg"
+        ],
+        "price": 200,
+        "description": "A development on long-standing Fearne, Persephione is cut from high quality unfinished crust leather and hand painted with natural dyes. ",
+        "colors": {
+            "pine": "../images/green-leather-swatch.jpg",
+            "scalet": "../images/red-leather-swatch.jpg",
+            "rouge": "../images/dark-red-leather-swatch.jpg",
+            "caramel": "../images/light-brown-leather-swatch.jpg",
+            "walnut": "../images/dark-brown-leather-swatch.jpg",
+            "black": "../images/black-leather-swatch.jpg"
+        },
+        "features": {
+            "lining": "full leather",
+            "sole": "Good Year Welted Leather Sole",
+            "heel": "leather",
+            "origin": "uk",
+            "fiting": "E"
+        },
+        "sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
         "featured": false
     }
 

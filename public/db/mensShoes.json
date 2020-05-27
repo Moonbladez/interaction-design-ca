@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"productid": 101,
 		"name": "liam",
 		"category": "oxfords",
@@ -27,7 +26,7 @@
 			"fiting": "E"
 		},
 		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-		"featured": false
+		"featured": true
 	},
 	{
 		"productid": 102,
@@ -117,7 +116,7 @@
 			"fiting": "E"
 		},
 		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-		"featured": false
+		"featured": true
 	},
 	{
 		"productid": 105,
@@ -207,7 +206,7 @@
 			"fiting": "E"
 		},
 		"sizes": ["4", "4.5", "5", "5.5", "6", "6.5", "7"],
-		"featured": false
+		"featured": true
 	},
 	{
 		"productid": 108,

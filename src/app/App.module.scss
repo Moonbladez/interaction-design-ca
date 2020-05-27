@@ -9,8 +9,18 @@
   --font-posh: 'Playfair Display', serif;
 }
 
-body {
+html {
   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+
   color: var(--color-dark);
   font-family: 'Open Sans', sans-serif;
 }

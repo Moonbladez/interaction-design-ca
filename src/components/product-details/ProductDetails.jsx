@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { v4 as uuid } from "uuid";
 
 import { fetchProducts } from "../../api/fetchProducts";
-import { fetchAccessories } from "../../api/fetchAccessories";
 
 import { Layout } from "../layout/Layout";
 import { BannerBottom } from "../../global/banner-bottom/BannerBottom";
 import { Testimonial } from "../testimonial/Testimonial";
 
 import styles from "./ProductDetails.module.scss";
+import { AnchorButton } from "../buttons/AnchorButton";
 
 export class ProductDetails extends Component {
 	constructor(props) {
@@ -19,10 +19,6 @@ export class ProductDetails extends Component {
 		const urlParamId = this.props.match.params.productid;
 		fetchProducts(this.props.fetchUrl, urlParamId).then((product) => {
 			this.setState({ product });
-		});
-
-		fetchAccessories().then((accessorydata) => {
-			this.setState({ accessorydata });
 		});
 	}
 
@@ -37,6 +33,7 @@ export class ProductDetails extends Component {
 						</div>
 					);
 				}
+
 				return (
 					<div className={styles.images} data-index={index} key={uuid()}>
 						<img src={image} alt={name} />
@@ -86,9 +83,16 @@ export class ProductDetails extends Component {
 		}
 	}
 
+	renderUpsell() {
+		console.log(this.state);
+	}
+
 	render() {
 		const { product } = this.state;
-		const { name, category, price, membershipCost, description } = product;
+		const { name, category, price, description } = product;
+
+		const membershipCost = Math.ceil(price - (price / 100) * 5);
+
 		if (product) {
 			return (
 				<Layout>
@@ -155,12 +159,64 @@ export class ProductDetails extends Component {
 						</div>
 					</section>
 
-					<section>
+					<section className={styles.upsell}>
 						<h3>Other Styles:</h3>
+						<div className={styles.wrapper}>
+							<div className={styles.card}>
+								<img src='/images/olivia-1.jpg' alt='Olivia shoe' />
+								<div>
+									<div className={styles.name}>Olivia Brogues</div>
+									<div>£200</div>
+									<AnchorButton location='/' content='buy now' />
+								</div>
+							</div>
+							<div className={styles.card}>
+								<img src='/images/emma-1.jpg' alt='Emma shoe' />
+								<div>
+									<div className={styles.name}>Emma Loafers</div>
+									<div>£250</div>
+									<AnchorButton location='/' content='buy now' />
+								</div>
+							</div>
+							<div className={styles.card}>
+								<img src='/images/ava-1.jpg' alt='Ava shoe' />
+								<div>
+									<div className={styles.name}>Ava Slippers</div>
+									<div>£300</div>
+									<AnchorButton location='/' content='buy now' />
+								</div>
+							</div>
+						</div>
 					</section>
 
-					<section>
+					<section className={styles.crossSell}>
 						<h3>Dont Forget:....</h3>
+						<div className={styles.wrapper}>
+							<div className={styles.card}>
+								<img src='/images/belt.jpg' alt='a belt' />
+								<div>
+									<div className={styles.name}>Italian Leather Belt</div>
+									<div>£50</div>
+									<AnchorButton location='/' content='buy now' />
+								</div>
+							</div>
+							<div className={styles.card}>
+								<img src='/images/wax.jpg' alt='shoe wax' />
+								<div>
+									<div className={styles.name}>Clear Shoe Wax</div>
+									<div>£20</div>
+									<AnchorButton location='/' content='buy now' />
+								</div>
+							</div>
+							<div className={styles.card}>
+								<img src='/images/shoebrush.jpg' alt='shoe brush' />
+								<div>
+									<div className={styles.name}>Shoe Brush</div>
+									<div>£20</div>
+									<AnchorButton location='/' content='buy now' />
+								</div>
+							</div>
+						</div>
 					</section>
 				</Layout>
 			);
