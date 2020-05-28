@@ -1,52 +1,75 @@
 import React, { Component } from "react";
 
+import { isValidEmail, isValidPassword } from "../../utils/validation";
+
 import { FormInput } from "./FormInput";
 import { Button } from "../buttons/Button";
+
+import styles from "./Login.module.scss";
 
 export class Login extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			login_email: "",
+			email: "",
 			login_password: "",
-			login_emailError: "",
-			login_passwordError: "",
+			error: {
+				email: "",
+				password: "",
+			},
 		};
 	}
 
 	handleOnChange = (currentEvent) => {
-		console.log(currentEvent.target.value);
+		const { name, value } = currentEvent.target;
+		let error = this.state.error;
 
-		this.setState({ [currentEvent.target.name]: currentEvent.target.value });
+		switch (name) {
+			case "email":
+				error.email = isValidEmail(value) ? "" : "Invalid email";
+				break;
+			case "password":
+				error.password = isValidPassword(value) ? "" : "Invalid password";
+				break;
+			default:
+		}
+		this.setState({ error, [name]: value });
 	};
 
 	handleOnSubmit = (currentEvent) => {
 		currentEvent.preventDefault();
+		const { email, password } = this.state;
+		const formData = {
+			email,
+			password,
+		};
+		console.log(formData);
 	};
 
 	render() {
+		const { error } = this.state;
 		return (
-			<div>
+			<div className={styles.Login}>
 				<h2>Login In</h2>
-				<form onSubmit={this.handleSubmit}>
+				<form onSubmit={this.handleOnSubmit} noValidate>
 					<FormInput
 						handleOnChange={this.handleOnChange}
 						type='email'
 						placeholder='email address'
 						id='login_email'
-						name='login_email'
-						label='email address: '
-						/* 		error={errors.name} */
+						name='email'
+						label='email address:'
 					/>
+					<div>{error.email}</div>
 					<FormInput
 						handleOnChange={this.handleOnChange}
 						type='password'
 						placeholder='password'
 						id='login_password'
-						name='login_password'
+						name='password'
 						label='password: '
-						/* 		error={errors.password} */
 					/>
+					<div>{error.password}</div>
 					<Button label='Log In' type='submit' onClick></Button>
 				</form>
 			</div>

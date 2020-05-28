@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "./ShoeCard.module.scss";
 
 export const ShoeCard = (props) => {
-	const { name, images, category, price, productid } = props.product;
+	const { name, images, category, price, productid, featured } = props.product;
 	const membershipCost = Math.ceil(price - (price / 100) * 5);
 	return (
 		<div className={styles.shoeCard} data-productid={productid}>
@@ -14,7 +14,6 @@ export const ShoeCard = (props) => {
 				<p className={styles.category}>{category}</p>
 				<p className={styles.price}>£{price}</p>
 				<p className={styles.membership}>member price £{membershipCost}</p>
-				{/* 	<AnchorButton content='Buy' location={`/${name}`}></AnchorButton> */}
 
 				<Link to={`${props.path}/${productid}`} {...props}>
 					Buy Now

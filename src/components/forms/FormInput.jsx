@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import styles from "./FormInput.module.scss";
 
 export class FormInput extends Component {
 	render() {
@@ -8,11 +7,8 @@ export class FormInput extends Component {
 			name,
 			type,
 			placeholder,
-			onChange,
 			className,
 			value,
-			error,
-			// children,
 			label,
 		} = this.props;
 		return (
@@ -27,9 +23,6 @@ export class FormInput extends Component {
 					value={value}
 					className={className}
 				/>
-				{`errors.${name}`.length > 0 && (
-					<div className={styles.error}>{error}</div>
-				)}
 			</div>
 		);
 	}

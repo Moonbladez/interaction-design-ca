@@ -3,9 +3,8 @@ import React, { Component } from "react";
 import { Layout } from "../../components/layout/Layout";
 import { Banner } from "../../global/banner/Banner";
 import { BannerBottom } from "../../global/banner-bottom/BannerBottom";
-import { ShoeShowcase } from "./ShoeShowcase";
-/* import { New } from "../components/home/New";
-import { About } from "../components/home/About"; */
+import { Showcase } from "./Showcase";
+import { Featured } from "../../components/featured/Featured";
 
 import styles from "./Home.module.scss";
 
@@ -19,20 +18,16 @@ export class Home extends Component {
 					className={styles.bannerHome}
 				/>
 				<BannerBottom />
-				<ShoeShowcase />
-				{/* 				<New />
-				<About
-					title={"about letha"}
-					information={
-						"Leathera shoes have been an English tradition since 1900. Discover our dedication to craftmansip"
-					}
+				<Showcase />
+				<Featured fetchUrl={"/db/mensShoes.json"} title='Mens Featured Shoes' />
+				<Featured
+					fetchUrl={"/db/womensShoes.json"}
+					title='Womens Featured Shoes'
 				/>
-				<About
-					title={"visit our stores"}
-					information={
-						"Leathera has a collection of stores around London and Stavanger. Explore our locations and opening times"
-					}
-				/> */}
+				<Featured
+					fetchUrl={"/db/accessories.json"}
+					title=' Featured Accessories'
+				/>
 			</Layout>
 		);
 	}

@@ -6,9 +6,9 @@ import MensShoes from "../../images/mens-card.jpg";
 import WomensShoes from "../../images/womens-card.jpg";
 import Accessories from "../../images/accessories-card.jpg";
 
-import styles from "./ShoeShowcase.module.scss";
+import styles from "./Showcase.module.scss";
 
-export class ShoeShowcase extends Component {
+export class Showcase extends Component {
 	render() {
 		return (
 			<section className={styles.wrapper}>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import links from "../../config/mainNav";
+import links from "../../config/main-nav";
 import { NavLink } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import styles from "./navlinks.module.scss";

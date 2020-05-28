@@ -1,0 +1,45 @@
+.megamenu {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    font-family: var(--font-posh);
+
+    h6 {
+        font-size: 1.2rem;
+
+        a {
+            color: var(--color-secondary);
+        }
+
+    }
+
+    nav {
+
+
+
+        ul {
+
+            li {
+
+                list-style: none;
+
+
+                &:not(:last-of-type) {
+                    padding-bottom: 1rem;
+                }
+
+                a {
+                    color: var(--color-primary);
+                    letter-spacing: 0.05rem;
+                    text-transform: uppercase;
+
+                    &:hover,
+                    &:focus {
+                        text-decoration: underline;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}

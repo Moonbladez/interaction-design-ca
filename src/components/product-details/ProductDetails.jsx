@@ -83,11 +83,8 @@ export class ProductDetails extends Component {
 		}
 	}
 
-	renderUpsell() {
-		console.log(this.state);
-	}
-
 	render() {
+		console.log(this.state.product);
 		const { product } = this.state;
 		const { name, category, price, description } = product;
 
@@ -130,7 +127,7 @@ export class ProductDetails extends Component {
 								{description}
 								<p>
 									Please be advised that due to the nature of being hand
-									painted, each pair will vary slightly in colour.{" "}
+									painted, each pair will vary slightly in colour.
 								</p>
 							</div>
 							<div className={styles.features}>

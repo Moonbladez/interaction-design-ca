@@ -15,28 +15,11 @@ import { ShoeCare } from "../pages/shoe-care/ShoeCare";
 import { StoreLocations } from "../pages/store-locations/StoreLocations";
 import { Products } from "../pages/products/Products";
 import { ProductDetails } from "../components/product-details/ProductDetails";
+import { Category } from "../pages/category/Category";
 
 import styles from "./App.module.scss";
 
 export class App extends Component {
-	constructor(props) {
-		super(props);
-
-		// this.state = {
-		// 	mensData: [],
-		// 	womensData: [],
-		// };
-	}
-
-	componentDidMount() {
-		// fetchMensShoes().then((mensData) => {
-		// 	this.setState({ mensData });
-		// });
-		// fetchWomensShoes().then((womensData) => {
-		// 	this.setState({ womensData });
-		// });
-	}
-
 	render() {
 		return (
 			<div className='App'>
@@ -70,6 +53,16 @@ export class App extends Component {
 
 					<Route
 						exact
+						path='/womens-shoes/:category'
+						render={(routerProps) => {
+							return (
+								<Category {...routerProps} fetchUrl={"/db/womensShoes.json"} />
+							);
+						}}
+					/>
+
+					<Route
+						exact
 						path='/accessories'
 						render={(routerProps) => (
 							<Products
@@ -92,7 +85,7 @@ export class App extends Component {
 							);
 						}}
 					/>
-					{/*
+
 					<Route exact path='/accessories' component={Accessories} />
 					<Route exact path='/delivery-info' component={Delivery} />
 					<Route exact path='/returns-info' component={Returns} />
@@ -104,7 +97,6 @@ export class App extends Component {
 					<Route exact path='/account' component={Account} />
 					<Route exact path='/gift-card' component={GiftCard} />
 
-					{/* 	<Route exact path='/mens-shoes' component={MensShoes} /> */}
 					<Route
 						exact
 						path='/mens-shoes'
@@ -126,6 +118,16 @@ export class App extends Component {
 									{...routerProps}
 									fetchUrl={"/db/mensShoes.json"}
 								/>
+							);
+						}}
+					/>
+
+					<Route
+						exact
+						path='/mens-shoes/:category'
+						render={(routerProps) => {
+							return (
+								<Category {...routerProps} fetchUrl={"/db/mensShoes.json"} />
 							);
 						}}
 					/>
