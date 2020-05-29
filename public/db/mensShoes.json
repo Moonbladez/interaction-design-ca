@@ -1,6 +1,6 @@
 [{
 		"productid": 101,
-		"name": "liam",
+		"name": "liam, hand painted",
 		"category": "oxfords",
 		"images": [
 			"/images/liam-1.jpg",
@@ -30,7 +30,7 @@
 	},
 	{
 		"productid": 102,
-		"name": "noah",
+		"name": "noah, vegan leather",
 		"category": "oxfords",
 		"images": [
 			"/images/noah-1.jpg",
@@ -60,7 +60,7 @@
 	},
 	{
 		"productid": 103,
-		"name": "william",
+		"name": "william, hand painted",
 		"category": "oxfords",
 		"images": [
 			"/images/william-1.jpg",
@@ -150,7 +150,7 @@
 	},
 	{
 		"productid": 106,
-		"name": "liam",
+		"name": "liam, antique finish",
 		"category": "brogues",
 		"images": [
 			"/images/liam-1.jpg",

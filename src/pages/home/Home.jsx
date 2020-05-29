@@ -28,6 +28,22 @@ export class Home extends Component {
 					fetchUrl={"/db/accessories.json"}
 					title=' Featured Accessories'
 				/>
+				<section className={styles.info}>
+					<div className={styles.about}>
+						<h4>About Letha</h4>
+						<p>
+							Letha Shoes has been an English tradition since 1900. Discover our
+							dedication to craftmanship
+						</p>
+					</div>
+					<div className={styles.stores}>
+						<h4>Visit our stores</h4>
+						<p>
+							Letha has a collection of stores around London and Stavanger.
+							Explore our locations and opening times
+						</p>
+					</div>
+				</section>
 			</Layout>
 		);
 	}

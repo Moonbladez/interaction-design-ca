@@ -15,7 +15,7 @@ import { ShoeCare } from "../pages/shoe-care/ShoeCare";
 import { StoreLocations } from "../pages/store-locations/StoreLocations";
 import { Products } from "../pages/products/Products";
 import { ProductDetails } from "../components/product-details/ProductDetails";
-import { Category } from "../pages/category/Category";
+import { Category } from "../components/category/Category";
 
 import styles from "./App.module.scss";
 
@@ -46,6 +46,7 @@ export class App extends Component {
 								<ProductDetails
 									{...routerProps}
 									fetchUrl={"/db/womensShoes.json"}
+									key={uuid()}
 								/>
 							);
 						}}
@@ -53,10 +54,14 @@ export class App extends Component {
 
 					<Route
 						exact
-						path='/womens-shoes/:category'
+						path='/womens-shoes/category/:category'
 						render={(routerProps) => {
 							return (
-								<Category {...routerProps} fetchUrl={"/db/womensShoes.json"} />
+								<Category
+									{...routerProps}
+									fetchUrl={"/db/womensShoes.json"}
+									key={uuid()}
+								/>
 							);
 						}}
 					/>
@@ -81,6 +86,7 @@ export class App extends Component {
 								<ProductDetails
 									{...routerProps}
 									fetchUrl={"/db/accessories.json"}
+									key={uuid()}
 								/>
 							);
 						}}
@@ -117,6 +123,7 @@ export class App extends Component {
 								<ProductDetails
 									{...routerProps}
 									fetchUrl={"/db/mensShoes.json"}
+									key={uuid()}
 								/>
 							);
 						}}
@@ -124,10 +131,14 @@ export class App extends Component {
 
 					<Route
 						exact
-						path='/mens-shoes/:category'
+						path='/mens-shoes/category/:category'
 						render={(routerProps) => {
 							return (
-								<Category {...routerProps} fetchUrl={"/db/mensShoes.json"} />
+								<Category
+									{...routerProps}
+									fetchUrl={"/db/mensShoes.json"}
+									key={uuid()}
+								/>
 							);
 						}}
 					/>

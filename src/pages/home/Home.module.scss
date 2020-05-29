@@ -1,0 +1,17 @@
+.info {
+    display: flex;
+
+    .about {
+        background-image:
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+            url('../../images/home.jpg');
+        width: 50%;
+    }
+
+    .stores {
+        background-image:
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+            url('../../images/home.jpg');
+        width: 50%;
+    }
+}

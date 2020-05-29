@@ -4,10 +4,6 @@ import { NavLink } from "react-router-dom";
 import styles from "./MegaMenu.module.scss";
 
 export class MegaMenu extends Component {
-
-
-
-	
 	renderWomensSubnav() {
 		return (
 			<nav>
@@ -16,27 +12,27 @@ export class MegaMenu extends Component {
 				</h6>
 				<ul>
 					<li>
-						<NavLink exact to='/womens-shoes/${categeory}'>
+						<NavLink exact to='/womens-shoes/category/brogues'>
 							Womens brogues
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact to='/womens-shoes/oxfords'>
+						<NavLink exact to='/womens-shoes/category/oxfords'>
 							Womens oxfords
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact to='/womens-shoes/loafers'>
+						<NavLink exact to='/womens-shoes/category/loafers'>
 							Womens loafers
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact to='/womens-shoes/boots'>
+						<NavLink exact to='/womens-shoes/category/boots'>
 							Womens boots
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact to='/womens-shoes/slippers'>
+						<NavLink exact to='/womens-shoes/category/slippers'>
 							Womens slippers
 						</NavLink>
 					</li>
@@ -54,22 +50,22 @@ export class MegaMenu extends Component {
 				<ul>
 					<ul>
 						<li>
-							<NavLink exact to='/mens-shoes/brogues'>
+							<NavLink exact to='/mens-shoes/category/brogues'>
 								mens brogues
 							</NavLink>
 						</li>
 						<li>
-							<NavLink exact to='/mens-shoes/oxfords'>
+							<NavLink exact to='/mens-shoes/category/oxfords'>
 								mens oxfords
 							</NavLink>
 						</li>
 						<li>
-							<NavLink exact to='/mens-shoes/loafers'>
+							<NavLink exact to='/mens-shoes/category/loafers'>
 								mens loafers
 							</NavLink>
 						</li>
 						<li>
-							<NavLink exact to='/mens-shoes/boots'>
+							<NavLink exact to='/mens-shoes/category/boots'>
 								mens derbys
 							</NavLink>
 						</li>
@@ -87,17 +83,17 @@ export class MegaMenu extends Component {
 				</h6>
 				<ul>
 					<li>
-						<NavLink exact to='/accessories/belts'>
+						<NavLink exact to='/accessories/category/belts'>
 							belts
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact to='/accessories/bags'>
+						<NavLink exact to='/accessories/category/bags'>
 							bags
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact to='/accessories/shoe-care'>
+						<NavLink exact to='/accessories/category/shoe-care'>
 							shoe care
 						</NavLink>
 					</li>
