@@ -20,130 +20,191 @@ import { Category } from "../components/category/Category";
 import styles from "./App.module.scss";
 
 export class App extends Component {
-	render() {
-		return (
-			<div className='App'>
-				<Switch>
-					<Route exact path='/' component={Home} />
+  render() {
+    return (
+      <div className="App">
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={(routerProps) => <Home {...routerProps} />}
+          />
 
-					<Route
-						exact
-						path='/womens-shoes'
-						render={(routerProps) => (
-							<Products
-								{...routerProps}
-								fetchUrl={"/db/womensShoes.json"}
-								key={uuid()}
-							/>
-						)}
-					/>
+          <Route
+            exact
+            path="/womens-shoes"
+            render={(routerProps) => (
+              <Products
+                {...routerProps}
+                fetchUrl={"/db/womensShoes.json"}
+                key={uuid()}
+              />
+            )}
+          />
 
-					<Route
-						exact
-						path='/womens-shoes/:productid'
-						render={(routerProps) => {
-							return (
-								<ProductDetails
-									{...routerProps}
-									fetchUrl={"/db/womensShoes.json"}
-									key={uuid()}
-								/>
-							);
-						}}
-					/>
+          <Route
+            exact
+            path="/womens-shoes/:productid"
+            render={(routerProps) => {
+              return (
+                <ProductDetails
+                  {...routerProps}
+                  fetchUrl={"/db/womensShoes.json"}
+                  key={uuid()}
+                />
+              );
+            }}
+          />
 
-					<Route
-						exact
-						path='/womens-shoes/category/:category'
-						render={(routerProps) => {
-							return (
-								<Category
-									{...routerProps}
-									fetchUrl={"/db/womensShoes.json"}
-									key={uuid()}
-								/>
-							);
-						}}
-					/>
+          <Route
+            exact
+            path="/womens-shoes/category/:category"
+            render={(routerProps) => {
+              return (
+                <Category
+                  {...routerProps}
+                  fetchUrl={"/db/womensShoes.json"}
+                  key={uuid()}
+                />
+              );
+            }}
+          />
 
-					<Route
-						exact
-						path='/accessories'
-						render={(routerProps) => (
-							<Products
-								{...routerProps}
-								fetchUrl={"/db/accessories.json"}
-								key={uuid()}
-							/>
-						)}
-					/>
+          <Route
+            exact
+            path="/accessories"
+            render={(routerProps) => (
+              <Products
+                {...routerProps}
+                fetchUrl={"/db/accessories.json"}
+                key={uuid()}
+              />
+            )}
+          />
 
-					<Route
-						exact
-						path='/accessories/:productid'
-						render={(routerProps) => {
-							return (
-								<ProductDetails
-									{...routerProps}
-									fetchUrl={"/db/accessories.json"}
-									key={uuid()}
-								/>
-							);
-						}}
-					/>
+          <Route
+            exact
+            path="/accessories/:productid"
+            render={(routerProps) => {
+              return (
+                <ProductDetails
+                  {...routerProps}
+                  fetchUrl={"/db/accessories.json"}
+                  key={uuid()}
+                />
+              );
+            }}
+          />
 
-					<Route exact path='/accessories' component={Accessories} />
-					<Route exact path='/delivery-info' component={Delivery} />
-					<Route exact path='/returns-info' component={Returns} />
-					<Route exact path='/shoe-care' component={ShoeCare} />
-					<Route exact path='/cookies' component={Privacy} />
-					<Route exact path='/store-information' component={StoreLocations} />
-					<Route exact path='/about-us' component={About} />
-					<Route exact path='/contact' component={Contact} />
-					<Route exact path='/account' component={Account} />
-					<Route exact path='/gift-card' component={GiftCard} />
+          <Route
+            exact
+            path="/accessories/category/:category"
+            render={(routerProps) => (
+              <Category
+                {...routerProps}
+                fetchUrl={"/db/accessories.json"}
+                key={uuid()}
+              />
+            )}
+          />
 
-					<Route
-						exact
-						path='/mens-shoes'
-						render={(routerProps) => (
-							<Products
-								{...routerProps}
-								fetchUrl={"/db/mensShoes.json"}
-								key={uuid()}
-							/>
-						)}
-					/>
+          <Route
+            exact
+            path="/delivery-info"
+            render={(routerProps) => (
+              <Delivery {...routerProps} title="Delivery Information" />
+            )}
+          />
+          <Route
+            exact
+            path="/returns-info"
+            render={(routerProps) => (
+              <Returns {...routerProps} title="Returns Information" />
+            )}
+          />
+          <Route
+            exact
+            path="/shoe-care"
+            render={(routerProps) => (
+              <ShoeCare {...routerProps} title="Shoe Care" />
+            )}
+          />
+          <Route
+            exact
+            path="/cookies"
+            component={Privacy}
+            title="Cookie Information"
+          />
+          <Route
+            exact
+            path="/store-information"
+            component={StoreLocations}
+            title="Store Information"
+          />
+          <Route exact path="/about-us" component={About} title="About us" />
+          <Route
+            exact
+            path="/contact"
+            render={(routerProps) => (
+              <Contact {...routerProps} title="Contact" />
+            )}
+          />
+          <Route
+            exact
+            path="/account"
+            render={(routerProps) => (
+              <Account {...routerProps} title="Account" />
+            )}
+          />
+          <Route
+            exact
+            path="/gift-card"
+            render={(routerProps) => (
+              <GiftCard {...routerProps} title="Gift Card" />
+            )}
+          />
 
-					<Route
-						exact
-						path='/mens-shoes/:productid'
-						render={(routerProps) => {
-							return (
-								<ProductDetails
-									{...routerProps}
-									fetchUrl={"/db/mensShoes.json"}
-									key={uuid()}
-								/>
-							);
-						}}
-					/>
+          <Route
+            exact
+            path="/mens-shoes"
+            render={(routerProps) => (
+              <Products
+                {...routerProps}
+                fetchUrl={"/db/mensShoes.json"}
+                key={uuid()}
+              />
+            )}
+          />
 
-					<Route
-						exact
-						path='/mens-shoes/category/:category'
-						render={(routerProps) => {
-							return (
-								<Category
-									{...routerProps}
-									fetchUrl={"/db/mensShoes.json"}
-									key={uuid()}
-								/>
-							);
-						}}
-					/>
-				</Switch>
-			</div>
-		);
-	}
+          <Route
+            exact
+            path="/mens-shoes/:productid"
+            render={(routerProps) => {
+              return (
+                <ProductDetails
+                  {...routerProps}
+                  fetchUrl={"/db/mensShoes.json"}
+                  key={uuid()}
+                />
+              );
+            }}
+          />
+
+          <Route
+            exact
+            path="/mens-shoes/category/:category"
+            render={(routerProps) => {
+              return (
+                <Category
+                  {...routerProps}
+                  fetchUrl={"/db/mensShoes.json"}
+                  key={uuid()}
+                />
+              );
+            }}
+          />
+        </Switch>
+      </div>
+    );
+  }
 }

@@ -8,16 +8,23 @@ import { BannerBottom } from "../../global/banner-bottom/BannerBottom";
 import styles from "./Account.module.scss";
 
 export class Account extends Component {
-	render() {
-		return (
-			<Layout>
-				<BannerBottom />
+  constructor(props) {
+    super(props);
+  }
 
-				<section className={styles.account}>
-					<Login />
-					<CreateAccount />
-				</section>
-			</Layout>
-		);
-	}
+  componentDidMount() {
+    document.title = `Letha | ${this.props.title}`;
+  }
+  render() {
+    return (
+      <Layout>
+        <BannerBottom />
+
+        <section className={styles.account}>
+          <Login />
+          <CreateAccount />
+        </section>
+      </Layout>
+    );
+  }
 }

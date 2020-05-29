@@ -8,41 +8,41 @@ import { Banner } from "../../global/banner/Banner";
 import { ShoeCard } from "../../components/shoe-card/ShoeCard";
 
 export class Accessories extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			products: [],
-		};
-	}
+  constructor(props) {
+    super(props);
+    this.state = {
+      products: [],
+    };
+  }
 
-	componentDidMount() {
-		fetchProducts(this.props.fetchUrl).then((products) => {
-			this.setState({ products });
-		});
-	}
+  componentDidMount() {
+    document.title = `Letha | ${this.props.title}`;
+    fetchProducts(this.props.fetchUrl).then((products) => {
+      this.setState({ products });
+    });
+  }
 
-	renderShoeCard() {
-		return this.state.products.map((product) => {
-			return (
-				<ShoeCard
-					path={this.props.match.path}
-					product={product}
-					key={uuidv4()}
-				/>
-			);
-		});
-	}
+  renderShoeCard() {
+    return this.state.products.map((product) => {
+      return (
+        <ShoeCard
+          path={this.props.match.path}
+          product={product}
+          key={uuidv4()}
+        />
+      );
+    });
+  }
 
-	render() {
-		console.log(this.props);
-		return (
-			<Layout>
-				<Banner
-					title='Accessories'
-					info='Finish off your outfit with a range of quality leather accessories'
-				/>
-				<section>{this.renderShoeCard()}</section>
-			</Layout>
-		);
-	}
+  render() {
+    return (
+      <Layout>
+        <Banner
+          title="Accessories"
+          info="Finish off your outfit with a range of quality leather accessories"
+        />
+        <section>{this.renderShoeCard()}</section>
+      </Layout>
+    );
+  }
 }

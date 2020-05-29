@@ -8,7 +8,7 @@ export const ShoeCard = (props) => {
   const { name, images, category, price, productid, featured } = props.product;
   const membershipCost = Math.ceil(price - (price / 100) * 5);
 
-  const department = props.path.split("/")[1].trim();
+  const department = featured ? props.path : props.path.split("/")[1].trim();
 
   return (
     <div className={styles.shoeCard} data-productid={productid}>

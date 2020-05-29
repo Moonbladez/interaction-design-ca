@@ -1,145 +1,146 @@
-[{
-        "productid": 301,
-        "name": "leather suitcase",
-        "category": "bag",
-        "images": [
-            "/images/briefcase.jpg",
-            "/images/liam-2.jpg",
-            "/images/liam-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 100,
-        "description": "A mordern, stylish leather briefcase. ",
-        "colors": {},
-        "features": {
-            "compartments": "2",
-            "depth": "11.5cm",
-            "height": "32.5cm",
-            "width": " 45 cm ",
-            "weight": "1.7kg",
-            "made in": "italy"
-        },
-        "sizes": [],
-        "featured": true
+[
+  {
+    "productid": 301,
+    "name": "leather suitcase",
+    "category": "bag",
+    "images": [
+      "/images/briefcase.jpg",
+      "/images/liam-2.jpg",
+      "/images/liam-3.jpg",
+      "/images/unboxing.jpg"
+    ],
+    "price": 100,
+    "description": "A mordern, stylish leather briefcase. ",
+    "colors": {},
+    "features": {
+      "compartments": "2",
+      "depth": "11.5cm",
+      "height": "32.5cm",
+      "width": " 45 cm ",
+      "weight": "1.7kg",
+      "made in": "italy"
     },
-    {
-        "productid": 302,
-        "name": "leather suitcase",
-        "category": "bag",
-        "images": [
-            "/images/handbag.jpg",
-            "/images/liam-2.jpg",
-            "/images/liam-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 80,
-        "description": "A mordern, stylish leather briefcase. ",
-        "colors": {},
-        "features": {
-            "compartments": "2",
-            "depth": "11.5cm",
-            "height": "32.5cm",
-            "width": " 45 cm ",
-            "weight": "1.7kg",
-            "made in": "italy"
-        },
-        "sizes": [],
-        "featured": false
+    "sizes": [],
+    "featured": true
+  },
+  {
+    "productid": 302,
+    "name": "leather suitcase",
+    "category": "bag",
+    "images": [
+      "/images/handbag.jpg",
+      "/images/liam-2.jpg",
+      "/images/liam-3.jpg",
+      "/images/unboxing.jpg"
+    ],
+    "price": 80,
+    "description": "A mordern, stylish leather briefcase. ",
+    "colors": {},
+    "features": {
+      "compartments": "2",
+      "depth": "11.5cm",
+      "height": "32.5cm",
+      "width": " 45 cm ",
+      "weight": "1.7kg",
+      "made in": "italy"
     },
-    {
-        "productid": 303,
-        "name": "leather belt",
-        "category": "belt",
-        "images": [
-            "/images/belt.jpg",
-            "/images/liam-2.jpg",
-            "/images/liam-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 50,
-        "description": "A mordern, stylish leather briefcase. ",
-        "colors": {},
-        "features": {
-            "compartments": "2",
-            "depth": "11.5cm",
-            "height": "32.5cm",
-            "width": " 45 cm ",
-            "weight": "1.7kg",
-            "made in": "italy"
-        },
-        "sizes": [],
-        "featured": true
+    "sizes": [],
+    "featured": false
+  },
+  {
+    "productid": 303,
+    "name": "leather belt",
+    "category": "belts",
+    "images": [
+      "/images/belt.jpg",
+      "/images/liam-2.jpg",
+      "/images/liam-3.jpg",
+      "/images/unboxing.jpg"
+    ],
+    "price": 50,
+    "description": "A mordern, stylish leather briefcase. ",
+    "colors": {},
+    "features": {
+      "compartments": "2",
+      "depth": "11.5cm",
+      "height": "32.5cm",
+      "width": " 45 cm ",
+      "weight": "1.7kg",
+      "made in": "italy"
     },
-    {
-        "productid": 304,
-        "name": "belts set",
-        "category": "belt",
-        "images": [
-            "/images/belts.jpg",
-            "/images/liam-2.jpg",
-            "/images/liam-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 100,
-        "description": "A mordern, stylish leather briefcase. ",
-        "colors": {},
-        "features": {
-            "compartments": "2",
-            "depth": "11.5cm",
-            "height": "32.5cm",
-            "width": " 45 cm ",
-            "weight": "1.7kg",
-            "made in": "italy"
-        },
-        "sizes": [],
-        "featured": false
+    "sizes": [],
+    "featured": true
+  },
+  {
+    "productid": 304,
+    "name": "belts set",
+    "category": "belts",
+    "images": [
+      "/images/belts.jpg",
+      "/images/liam-2.jpg",
+      "/images/liam-3.jpg",
+      "/images/unboxing.jpg"
+    ],
+    "price": 100,
+    "description": "A mordern, stylish leather briefcase. ",
+    "colors": {},
+    "features": {
+      "compartments": "2",
+      "depth": "11.5cm",
+      "height": "32.5cm",
+      "width": " 45 cm ",
+      "weight": "1.7kg",
+      "made in": "italy"
     },
-    {
-        "productid": 305,
-        "name": "shoe brush",
-        "category": "shoe care",
-        "images": [
-            "/images/shoebrush.jpg",
-            "/images/liam-2.jpg",
-            "/images/liam-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 20,
-        "description": "A mordern, stylish leather briefcase. ",
-        "colors": {},
-        "features": {
-            "compartments": "2",
-            "depth": "11.5cm",
-            "height": "32.5cm",
-            "width": " 45 cm ",
-            "weight": "1.7kg",
-            "made in": "italy"
-        },
-        "sizes": [],
-        "featured": false
+    "sizes": [],
+    "featured": false
+  },
+  {
+    "productid": 305,
+    "name": "shoe brush",
+    "category": "shoe care",
+    "images": [
+      "/images/shoebrush.jpg",
+      "/images/liam-2.jpg",
+      "/images/liam-3.jpg",
+      "/images/unboxing.jpg"
+    ],
+    "price": 20,
+    "description": "A mordern, stylish leather briefcase. ",
+    "colors": {},
+    "features": {
+      "compartments": "2",
+      "depth": "11.5cm",
+      "height": "32.5cm",
+      "width": " 45 cm ",
+      "weight": "1.7kg",
+      "made in": "italy"
     },
-    {
-        "productid": 306,
-        "name": "leather suitcase",
-        "category": "shoe care",
-        "images": [
-            "/images/wax.jpg",
-            "/images/liam-2.jpg",
-            "/images/liam-3.jpg",
-            "/images/unboxing.jpg"
-        ],
-        "price": 20,
-        "description": "A mordern, stylish leather briefcase. ",
-        "colors": {},
-        "features": {
-            "compartments": "2",
-            "depth": "11.5cm",
-            "height": "32.5cm",
-            "width": " 45 cm ",
-            "weight": "1.7kg",
-            "made in": "italy"
-        },
-        "sizes": [],
-        "featured": true
-    }
+    "sizes": [],
+    "featured": false
+  },
+  {
+    "productid": 306,
+    "name": "leather suitcase",
+    "category": "shoe care",
+    "images": [
+      "/images/wax.jpg",
+      "/images/liam-2.jpg",
+      "/images/liam-3.jpg",
+      "/images/unboxing.jpg"
+    ],
+    "price": 20,
+    "description": "A mordern, stylish leather briefcase. ",
+    "colors": {},
+    "features": {
+      "compartments": "2",
+      "depth": "11.5cm",
+      "height": "32.5cm",
+      "width": " 45 cm ",
+      "weight": "1.7kg",
+      "made in": "italy"
+    },
+    "sizes": [],
+    "featured": true
+  }
 ]
