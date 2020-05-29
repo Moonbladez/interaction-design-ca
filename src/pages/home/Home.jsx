@@ -7,6 +7,7 @@ import { Showcase } from "./Showcase";
 import { Featured } from "../../components/featured/Featured";
 
 import styles from "./Home.module.scss";
+import { AnchorButton } from "../../components/buttons/AnchorButton";
 
 export class Home extends Component {
 	render() {
@@ -35,6 +36,7 @@ export class Home extends Component {
 							Letha Shoes has been an English tradition since 1900. Discover our
 							dedication to craftmanship
 						</p>
+						<AnchorButton to='/about' content='more about Letha' />
 					</div>
 					<div className={styles.stores}>
 						<h4>Visit our stores</h4>
@@ -42,6 +44,7 @@ export class Home extends Component {
 							Letha has a collection of stores around London and Stavanger.
 							Explore our locations and opening times
 						</p>
+						<AnchorButton to='/about' content='our stores' />
 					</div>
 				</section>
 			</Layout>
