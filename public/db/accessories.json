@@ -1,8 +1,7 @@
-[
-  {
+[{
     "productid": 301,
     "name": "leather suitcase",
-    "category": "bag",
+    "category": "bags",
     "images": [
       "/images/briefcase.jpg",
       "/images/liam-2.jpg",
@@ -26,7 +25,7 @@
   {
     "productid": 302,
     "name": "leather suitcase",
-    "category": "bag",
+    "category": "bags",
     "images": [
       "/images/handbag.jpg",
       "/images/liam-2.jpg",
@@ -98,7 +97,7 @@
   {
     "productid": 305,
     "name": "shoe brush",
-    "category": "shoe care",
+    "category": "shoe-care",
     "images": [
       "/images/shoebrush.jpg",
       "/images/liam-2.jpg",
@@ -122,7 +121,7 @@
   {
     "productid": 306,
     "name": "leather suitcase",
-    "category": "shoe care",
+    "category": "shoe-care",
     "images": [
       "/images/wax.jpg",
       "/images/liam-2.jpg",
