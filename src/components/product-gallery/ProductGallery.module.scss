@@ -1,13 +1,21 @@
 .gallery {
+
+  .container {
+    background-color: red;
+  }
+
   .featured_image {
     img {
       max-width: 100%;
     }
   }
+
   .thumbnails {
     display: flex;
+
     .image {
       max-width: 25%;
+
       img {
         max-width: 100%;
       }

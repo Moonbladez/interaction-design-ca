@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: repeat(2 -webkit-max-content);
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(9, max-content);
-    grid-template-areas: "image name""image category""image color""image price""image membership_price""image size""image_gallery button""image_gallery share""description description";
+    grid-template-rows: 100px max-content max-content max-content max-content max-content max-content max-content max-content;
+    grid-template-areas: "images name""images category""images colors""images price""images membership_price""images sizes""images button""images share""description description";
     max-width: 60vw;
     margin: auto;
     padding-top: 5rem;
@@ -46,7 +46,7 @@
 }
 
 .size {
-    grid-area: size;
+    grid-area: sizes;
     width: 80%;
     margin-right: auto;
 
@@ -83,7 +83,7 @@
 }
 
 .color {
-    grid-area: color;
+    grid-area: colors;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,8 +191,8 @@
     }
 }
 
-.images {
-    grid-area: image_gallery;
+.gallery {
+    grid-area: images;
 
     img {
         width: 100%;
