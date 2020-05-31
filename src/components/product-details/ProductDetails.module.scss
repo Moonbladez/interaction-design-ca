@@ -136,14 +136,15 @@
     a {
         display: inline-block;
         width: 40%;
+
+
     }
 }
 
 
 .buy_button {
     background-color: var(--color-secondary);
-    color: var(--color-dark);
-    font-weight: bold;
+    color: var(--color-white);
     border: none;
     padding: 0.5rem 1rem;
 
@@ -152,7 +153,12 @@
     cursor: pointer;
     box-shadow: 1px 2px 5px var(--color-dark);
     border: 2px solid transparent;
-    font-family: var(--font-posh);
+    transition: all 0.5s;
+
+    &:hover,
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 .basket_button {
@@ -161,6 +167,13 @@
     padding: 0.5rem 1rem;
     border: 2px solid var(--color-primary);
     color: var(--color-primary);
+    transition: all 0.5s;
+
+    &:hover,
+    &:focus {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+    }
 }
 
 .share {
@@ -289,6 +302,12 @@ article {
             margin-top: 1rem;
             display: block;
             background-color: var(--color-secondary);
+            text-transform: capitalize;
+
+            &:hover,
+            &:active {
+                box-shadow: none;
+            }
         }
     }
 }
@@ -334,6 +353,12 @@ article {
             margin-top: 1rem;
             display: block;
             background-color: var(--color-secondary);
+            text-transform: capitalize;
+
+            &:hover,
+            &:active {
+                box-shadow: none;
+            }
         }
     }
 }

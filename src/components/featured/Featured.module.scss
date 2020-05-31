@@ -19,6 +19,7 @@
     a {
         background-color: var(--color-secondary);
         transition: all 0.6s;
+        text-transform: capitalize;
 
 
         &:hover,
