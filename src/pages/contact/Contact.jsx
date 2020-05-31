@@ -41,8 +41,6 @@ export class Contact extends Component {
     const { formData } = this.state;
     const { name, value } = event.target;
     formData[event.target.name] = event.target.value;
-    // this.setState({ formData });
-    // console.log(formData);
 
     let errors = this.state.errors;
 
