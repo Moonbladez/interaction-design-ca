@@ -1,12 +1,13 @@
-[{
+[
+  {
     "productid": 301,
     "name": "leather suitcase",
     "category": "bags",
     "images": [
-      "/images/briefcase.jpg",
-      "/images/liam-2.jpg",
-      "/images/liam-3.jpg",
-      "/images/unboxing.jpg"
+      "/interaction-design/images/briefcase.jpg",
+      "/interaction-design/images/liam-2.jpg",
+      "/interaction-design/images/liam-3.jpg",
+      "/interaction-design/images/unboxing.jpg"
     ],
     "price": 100,
     "description": "A mordern, stylish leather briefcase. ",
@@ -27,10 +28,10 @@
     "name": "leather suitcase",
     "category": "bags",
     "images": [
-      "/images/handbag.jpg",
-      "/images/liam-2.jpg",
-      "/images/liam-3.jpg",
-      "/images/unboxing.jpg"
+      "/interaction-design/images/handbag.jpg",
+      "/interaction-design/images/liam-2.jpg",
+      "/interaction-design/images/liam-3.jpg",
+      "/interaction-design/images/unboxing.jpg"
     ],
     "price": 80,
     "description": "A mordern, stylish leather briefcase. ",
@@ -51,10 +52,10 @@
     "name": "leather belt",
     "category": "belts",
     "images": [
-      "/images/belt.jpg",
-      "/images/liam-2.jpg",
-      "/images/liam-3.jpg",
-      "/images/unboxing.jpg"
+      "/interaction-design/images/belt.jpg",
+      "/interaction-design/images/liam-2.jpg",
+      "/interaction-design/images/liam-3.jpg",
+      "/interaction-design/images/unboxing.jpg"
     ],
     "price": 50,
     "description": "A mordern, stylish leather briefcase. ",
@@ -75,10 +76,10 @@
     "name": "belts set",
     "category": "belts",
     "images": [
-      "/images/belts.jpg",
-      "/images/liam-2.jpg",
-      "/images/liam-3.jpg",
-      "/images/unboxing.jpg"
+      "/interaction-design/images/belts.jpg",
+      "/interaction-design/images/liam-2.jpg",
+      "/interaction-design/images/liam-3.jpg",
+      "/interaction-design/images/unboxing.jpg"
     ],
     "price": 100,
     "description": "A mordern, stylish leather briefcase. ",
@@ -99,10 +100,10 @@
     "name": "shoe brush",
     "category": "shoe-care",
     "images": [
-      "/images/shoebrush.jpg",
-      "/images/liam-2.jpg",
-      "/images/liam-3.jpg",
-      "/images/unboxing.jpg"
+      "/interaction-design/images/shoebrush.jpg",
+      "/interaction-design/images/liam-2.jpg",
+      "/interaction-design/images/liam-3.jpg",
+      "/interaction-design/images/unboxing.jpg"
     ],
     "price": 20,
     "description": "A mordern, stylish leather briefcase. ",
@@ -123,10 +124,10 @@
     "name": "leather suitcase",
     "category": "shoe-care",
     "images": [
-      "/images/wax.jpg",
-      "/images/liam-2.jpg",
-      "/images/liam-3.jpg",
-      "/images/unboxing.jpg"
+      "/interaction-design/images/wax.jpg",
+      "/interaction-design/images/liam-2.jpg",
+      "/interaction-design/images/liam-3.jpg",
+      "/interaction-design/images/unboxing.jpg"
     ],
     "price": 20,
     "description": "A mordern, stylish leather briefcase. ",

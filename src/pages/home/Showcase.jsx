@@ -14,20 +14,23 @@ export class Showcase extends Component {
       <section className={styles.wrapper}>
         <div className={styles.shoe_showcase}>
           <img src={MensShoes} alt="mens shoe section" />
-          <AnchorButton content="Mens Shoes" to={"/mens-shoes"}></AnchorButton>
+          <AnchorButton
+            content="Mens Shoes"
+            to={"/interaction-design/mens-shoes"}
+          ></AnchorButton>
         </div>
         <div className={styles.shoe_showcase}>
           <img src={WomensShoes} alt="womens shoe section" />
           <AnchorButton
             content="Womens Shoes"
-            to={"/womens-shoes"}
+            to={"/interaction-design/womens-shoes"}
           ></AnchorButton>
         </div>
         <div className={styles.shoe_showcase}>
           <img src={Accessories} alt="accessories section" />
           <AnchorButton
             content="Accessories"
-            to={"/accessories"}
+            to={"/interaction-design/accessories"}
           ></AnchorButton>
         </div>
       </section>

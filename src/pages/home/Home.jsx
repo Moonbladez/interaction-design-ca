@@ -14,6 +14,9 @@ export class Home extends Component {
     super(props);
   }
   render() {
+    console.log("Home: ", this.props);
+    const { path } = this.props.match;
+    console.log(path);
     return (
       <Layout>
         <Banner
@@ -26,17 +29,17 @@ export class Home extends Component {
         <Featured
           fetchUrl={"/db/mensShoes.json"}
           title="Mens Featured Shoes"
-          path={"/mens-shoes"}
+          path={`${path}/mens-shoes`}
         />
         <Featured
           fetchUrl={"/db/womensShoes.json"}
           title="Womens Featured Shoes"
-          path={"/womens-shoes"}
+          path={`${path}/womens-shoes`}
         />
         <Featured
           fetchUrl={"/db/accessories.json"}
           title=" Featured Accessories"
-          path={"/accessories"}
+          path={`${path}/accessories`}
         />
         <section className={styles.info}>
           <div className={styles.about}>

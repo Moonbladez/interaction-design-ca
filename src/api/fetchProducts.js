@@ -1,5 +1,5 @@
 export const fetchProducts = async (route, productid) => {
-  return fetch(`http://localhost:3000${route}`)
+  return fetch(`http://${window.location.host}/interaction-design${route}`)
     .then((response) => response.json())
     .then((products) => {
       if (productid) {
@@ -13,7 +13,7 @@ export const fetchProducts = async (route, productid) => {
 };
 
 export const fetchCategory = async (route, category) => {
-  return fetch(`http://localhost:3000${route}`)
+  return fetch(`http://${window.location.host}/interaction-design${route}`)
     .then((response) => response.json())
     .then((products) => {
       const productsArray = products.filter(
@@ -22,3 +22,5 @@ export const fetchCategory = async (route, category) => {
       return productsArray;
     });
 };
+
+//http://localhost:3000/interaction-design

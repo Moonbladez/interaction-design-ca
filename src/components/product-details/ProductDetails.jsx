@@ -139,27 +139,45 @@ export class ProductDetails extends Component {
             <h3>Other Styles:</h3>
             <div className={styles.wrapper}>
               <div className={styles.card}>
-                <img src="/images/olivia-1.jpg" alt="Olivia shoe" />
+                <img
+                  src="/interaction-design/images/olivia-1.jpg"
+                  alt="Olivia shoe"
+                />
                 <div>
                   <div className={styles.name}>Olivia Brogues</div>
                   <div>£200</div>
-                  <AnchorButton to="/" content="buy now" />
+                  <AnchorButton
+                    to="/interaction-design/womens-shoes/207"
+                    content="buy now"
+                  />
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/emma-1.jpg" alt="Emma shoe" />
+                <img
+                  src="/interaction-design/images/emma-1.jpg"
+                  alt="Emma shoe"
+                />
                 <div>
                   <div className={styles.name}>Emma Loafers</div>
                   <div>£250</div>
-                  <AnchorButton to="/" content="buy now" />
+                  <AnchorButton
+                    to="/interaction-design/womens-shoes/201"
+                    content="buy now"
+                  />
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/ava-1.jpg" alt="Ava shoe" />
+                <img
+                  src="/interaction-design/images/ava-1.jpg"
+                  alt="Ava shoe"
+                />
                 <div>
                   <div className={styles.name}>Ava Slippers</div>
                   <div>£300</div>
-                  <AnchorButton to="/" content="buy now" />
+                  <AnchorButton
+                    to="/interaction-design/womens-shoes/213"
+                    content="buy now"
+                  />
                 </div>
               </div>
             </div>
@@ -169,27 +187,39 @@ export class ProductDetails extends Component {
             <h3>Dont Forget:....</h3>
             <div className={styles.wrapper}>
               <div className={styles.card}>
-                <img src="/images/belt.jpg" alt="a belt" />
+                <img src="/interaction-design/images/belt.jpg" alt="a belt" />
                 <div>
                   <div className={styles.name}>Italian Leather Belt</div>
                   <div>£50</div>
-                  <AnchorButton to="/" content="buy now" />
+                  <AnchorButton
+                    to="/interaction-design/accessories/303"
+                    content="buy now"
+                  />
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/wax.jpg" alt="shoe wax" />
+                <img src="/interaction-design/images/wax.jpg" alt="shoe wax" />
                 <div>
                   <div className={styles.name}>Clear Shoe Wax</div>
                   <div>£20</div>
-                  <AnchorButton to="/" content="buy now" />
+                  <AnchorButton
+                    to="/interaction-design/accessories/306"
+                    content="buy now"
+                  />
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/shoebrush.jpg" alt="shoe brush" />
+                <img
+                  src="/interaction-design/images/shoebrush.jpg"
+                  alt="shoe brush"
+                />
                 <div>
                   <div className={styles.name}>Shoe Brush</div>
                   <div>£20</div>
-                  <AnchorButton to="/" content="buy now" />
+                  <AnchorButton
+                    to="/interaction-design/accessories/305"
+                    content="buy now"
+                  />
                 </div>
               </div>
             </div>

@@ -55,7 +55,7 @@ export class Navbar extends Component {
     return (
       <>
         <nav className={styles.navbar__main}>
-          <NavLink to={"/"}>
+          <NavLink to={"/interaction-design"}>
             <h1>Letha</h1>
           </NavLink>
 
@@ -77,7 +77,7 @@ export class Navbar extends Component {
               <a></a>
             </li>
             <li>
-              <NavLink to="/about-us">About</NavLink>
+              <NavLink to="/interaction-design/about-us">About</NavLink>
             </li>
           </ul>
 
