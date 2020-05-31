@@ -30,19 +30,15 @@ export class Category extends Component {
   }
 
   renderCategory() {
+    const department = this.props.match.path.split("/")[1];
     return this.state.products.map((product) => {
       return (
-        <ShoeCard
-          path={this.props.match.path}
-          product={product}
-          key={uuidv4()}
-        />
+        <ShoeCard path={`/${department}`} product={product} key={uuidv4()} />
       );
     });
   }
 
   render() {
-    console.log(this.state);
     return (
       <Layout>
         <BannerBottom />
